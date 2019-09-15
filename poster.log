@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.3.1)  15 SEP 2019 18:56
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.3.1)  15 SEP 2019 19:03
  restricted system commands enabled.
 **poster
 (./poster.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.098 seconds
+luaotfload | main : initialization completed in 0.082 seconds
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
@@ -818,14 +818,14 @@ Package beamerposter Info: checking size input, please wait. on input line 130.
 Package beamerposter Info: the input custom\ 6\ was correct, we proceed. on inpu
 t line 130.
 Package beamerposter Info: finished size input check. on input line 130.
-Package beamerposter Info: custom poster width=150 on input line 130.
-Package beamerposter Info: custom poster height=90 on input line 130.
+Package beamerposter Info: custom poster width=80 on input line 130.
+Package beamerposter Info: custom poster height=110 on input line 130.
 Package beamerposter Info: myfontscale=1.0 on input line 130.
  ( FP-UPN
 ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-SUB ) ) ( FP-UPN ( FP-SUB ) )
-Package beamerposter Info: paperwidth=4267.91338pt, paperheight=2560.74802pt on 
+Package beamerposter Info: paperwidth=2276.22046pt, paperheight=3129.80315pt on 
 input line 173.
-Package beamerposter Info: textwidth=4239.46062pt, textheight=2532.29527pt on in
+Package beamerposter Info: textwidth=2247.76772pt, textheight=3101.35039pt on in
 put line 174.
 Package beamerposter Info: fontscale=1.0, myfontscale=1.00 on input line 175.
  ( FP-UPN
@@ -1524,12 +1524,12 @@ LaTeX Font Info:    ... okay on input line 56.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(28.45274pt, 4211.00789pt, 28.45274pt)
-* v-part:(T,H,B)=(0.0pt, 2560.74802pt, 0.0pt)
-* \paperwidth=4267.91338pt
-* \paperheight=2560.74802pt
-* \textwidth=4211.00789pt
-* \textheight=2532.29529pt
+* h-part:(L,W,R)=(28.45274pt, 2219.31497pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 3129.80315pt, 0.0pt)
+* \paperwidth=2276.22046pt
+* \paperheight=3129.80315pt
+* \textwidth=2219.31497pt
+* \textheight=3101.35042pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
@@ -1657,65 +1657,67 @@ LaTeX Font Info:    External font `cmex7' loaded for size
 File: figures/south-america+pantanal.png Graphic file (type png)
 <use figures/south-america+pantanal.png>
 Package luatex.def Info: figures/south-america+pantanal.png  used on input line 
-265.
+235.
 (luatex.def)             Requested size: 497.60529pt x 517.86928pt.
 <figures/interfaces.png, id=24, 1011.78pt x 289.08pt>
 File: figures/interfaces.png Graphic file (type png)
 <use figures/interfaces.png>
-Package luatex.def Info: figures/interfaces.png  used on input line 265.
-(luatex.def)             Requested size: 938.94615pt x 268.27701pt.
+Package luatex.def Info: figures/interfaces.png  used on input line 235.
+(luatex.def)             Requested size: 500.77127pt x 143.07959pt.
 <figures/angle-step_0.png, id=30, 1011.78pt x 289.08pt>
 File: figures/angle-step_0.png Graphic file (type png)
 <use figures/angle-step_0.png>
-Package luatex.def Info: figures/angle-step_0.png  used on input line 265.
-(luatex.def)             Requested size: 938.94615pt x 268.27701pt.
+Package luatex.def Info: figures/angle-step_0.png  used on input line 235.
+(luatex.def)             Requested size: 500.77127pt x 143.07959pt.
 <figures/angle-step_199.png, id=31, 1011.78pt x 289.08pt>
 File: figures/angle-step_199.png Graphic file (type png)
 <use figures/angle-step_199.png>
-Package luatex.def Info: figures/angle-step_199.png  used on input line 265.
-(luatex.def)             Requested size: 938.94615pt x 268.27701pt.
+Package luatex.def Info: figures/angle-step_199.png  used on input line 235.
+(luatex.def)             Requested size: 500.77127pt x 143.07959pt.
 <figures/angle-step_363.png, id=32, 1011.78pt x 289.08pt>
 File: figures/angle-step_363.png Graphic file (type png)
 <use figures/angle-step_363.png>
-Package luatex.def Info: figures/angle-step_363.png  used on input line 265.
-(luatex.def)             Requested size: 938.94615pt x 268.27701pt.
+Package luatex.def Info: figures/angle-step_363.png  used on input line 235.
+(luatex.def)             Requested size: 500.77127pt x 143.07959pt.
 <figures/angle-step_204.png, id=33, 1011.78pt x 289.08pt>
 File: figures/angle-step_204.png Graphic file (type png)
 <use figures/angle-step_204.png>
-Package luatex.def Info: figures/angle-step_204.png  used on input line 265.
-(luatex.def)             Requested size: 938.94615pt x 268.27701pt.
+Package luatex.def Info: figures/angle-step_204.png  used on input line 235.
+(luatex.def)             Requested size: 500.77127pt x 143.07959pt.
 <figures/corr_25.png, id=34, 462.528pt x 346.896pt>
 File: figures/corr_25.png Graphic file (type png)
 <use figures/corr_25.png>
-Package luatex.def Info: figures/corr_25.png  used on input line 265.
-(luatex.def)             Requested size: 426.81738pt x 320.12743pt.
+Package luatex.def Info: figures/corr_25.png  used on input line 235.
+(luatex.def)             Requested size: 227.63593pt x 170.72685pt.
 <figures/corr_5.png, id=35, 462.528pt x 346.896pt>
 File: figures/corr_5.png Graphic file (type png)
 <use figures/corr_5.png>
-Package luatex.def Info: figures/corr_5.png  used on input line 265.
-(luatex.def)             Requested size: 426.81738pt x 320.12743pt.
+Package luatex.def Info: figures/corr_5.png  used on input line 235.
+(luatex.def)             Requested size: 227.63593pt x 170.72685pt.
 <figures/next-step.png, id=36, 1378.14874pt x 742.775pt>
 File: figures/next-step.png Graphic file (type png)
 <use figures/next-step.png>
-Package luatex.def Info: figures/next-step.png  used on input line 265.
-(luatex.def)             Requested size: 640.16095pt x 345.02412pt.
+Package luatex.def Info: figures/next-step.png  used on input line 235.
+(luatex.def)             Requested size: 341.41917pt x 184.01588pt.
  (./poster.bbl)
+Overfull \vbox (844.69975pt too high) detected at line 235
+ []
+
 <figures/usp-logo-png.png, id=37, 803.0pt x 602.25pt>
 File: figures/usp-logo-png.png Graphic file (type png)
 <use figures/usp-logo-png.png>
-Package luatex.def Info: figures/usp-logo-png.png  used on input line 265.
+Package luatex.def Info: figures/usp-logo-png.png  used on input line 235.
 (luatex.def)             Requested size: 341.44815pt x 256.0748pt.
 <figures/iagcompasso_V.png, id=38, 394.3533pt x 467.5869pt>
 File: figures/iagcompasso_V.png Graphic file (type png)
 <use figures/iagcompasso_V.png>
-Package luatex.def Info: figures/iagcompasso_V.png  used on input line 265.
+Package luatex.def Info: figures/iagcompasso_V.png  used on input line 235.
 (luatex.def)             Requested size: 167.97401pt x 199.16928pt.
 <figures/logo-isag.png, id=39, 1511.6475pt x 733.74126pt>
 File: figures/logo-isag.png Graphic file (type png)
 <use figures/logo-isag.png>
-Package luatex.def Info: figures/logo-isag.png  used on input line 265.
+Package luatex.def Info: figures/logo-isag.png  used on input line 235.
 (luatex.def)             Requested size: 410.31848pt x 199.16928pt.
-
 [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -1735,11 +1737,11 @@ next-step.png>]
 \tf@snm=\write8
 
 \openout8 = poster.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
  (./poster.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 267.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 267.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 237.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 237.
 Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1750,15 +1752,15 @@ LaTeX Warning: There were multiply-defined labels.
 
 Here is how much of LuaTeX's memory you used:
  45393 strings out of 494383
- 244171,1648299 words of node,token memory allocated
- 121897 words of node memory still in use:
-   658 hlist, 85 vlist, 84 rule, 881 disc, 119 local_par, 156 math, 2583 glue, 1
-669 kern, 341 penalty, 9553 glyph, 1360 attribute, 80 glue_spec, 1360 attribute_
-list, 43 write, 168 pdf_literal, 14 pdf_start_link, 14 pdf_end_link, 25 pdf_dest
+ 244181,1648299 words of node,token memory allocated
+ 122298 words of node memory still in use:
+   688 hlist, 83 vlist, 84 rule, 881 disc, 117 local_par, 154 math, 2630 glue, 1
+661 kern, 355 penalty, 9549 glyph, 1340 attribute, 80 glue_spec, 1340 attribute_
+list, 43 write, 152 pdf_literal, 14 pdf_start_link, 14 pdf_end_link, 25 pdf_dest
 , 14 pdf_action, 418 pdf_colorstack, 8 pdf_setmatrix, 8 pdf_save, 8 pdf_restore 
 nodes
-   avail lists: 1:5,2:512,3:662,4:467,5:1723,6:122,7:12466,8:132,9:838,10:25,11:
-886,12:1
+   avail lists: 1:11,2:512,3:661,4:467,5:1715,6:120,7:12509,8:133,9:867,10:20,11
+:886,12:1
  47731 multiletter control sequences out of 65536+600000
  116 fonts using 22031935 bytes
  67i,19n,105p,841b,1194s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -1774,7 +1776,7 @@ ve/2018/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2018/tex
 mf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/font
 s/type1/public/lm/lmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
 ic/lm/lmsy10.pfb>
-Output written on poster.pdf (1 page, 8465962 bytes).
+Output written on poster.pdf (1 page, 8466309 bytes).
 
 PDF statistics: 142 PDF objects out of 1000 (max. 8388607)
  88 compressed objects within 1 object stream
