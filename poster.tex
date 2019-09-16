@@ -34,7 +34,7 @@
 % (N+1)*\sepwidth + N*\colwidth = \paperwidth
 \newlength{\sepwidth}
 \newlength{\colwidth}
-\setlength{\sepwidth}{0.024\paperwidth}
+\setlength{\sepwidth}{0.025\paperwidth}
 \setlength{\colwidth}{0.3\paperwidth}
 
 \newcommand{\separatorcolumn}{\begin{column}{\sepwidth}\end{column}}
@@ -79,6 +79,10 @@
 
 \begin{frame}[t]
 
+% ====================
+% First Column
+% ====================
+
 \begin{columns}[t]
 \separatorcolumn
 
@@ -89,7 +93,7 @@
 
     \begin{figure}
         \centering
-        \includegraphics[trim={1.5cm 1.5cm 2cm 10cm},clip,scale=1]{figures/south-america+pantanal.png}
+        \includegraphics[trim={1.5cm 1.5cm 2cm 10cm},clip,width=0.3\paperwidth]{figures/south-america+pantanal.png}
         \caption{ Map of South America showing the Pantanal Basin perimeter.}
         \label{fig:pantanal-basin}
     \end{figure}
@@ -122,72 +126,84 @@
   
 \end{column}
 
+% ====================
+% Second Column
+% ====================
+
 \separatorcolumn
 
 \begin{column}{\colwidth}
   
   \begin{block}{Initial conditions}
   
-  To study how the buoyancy changes as a function of the initial parameters, the length of the subducting oceanic lithosphere will be reduced to match the depth of $450$ km and we will simulate for $5$ Myr until it "recovers its original length. This will serve as well to allow flow beneath the subducting plate, restricted to the longitudinal direction.
+    To study how the buoyancy changes as a function of the initial parameters, the length of the subducting oceanic lithosphere will be reduced to match the depth of $450$ km and we will simulate for $5$ Myr until it "recovers its original length. This will serve as well to allow flow beneath the subducting plate, restricted to the longitudinal direction.
   
-  \heading{\textcolor{darkblue}{Layer model}}
-    The chosen layer model for the simulations is a combination of the Slab2 model \cite{hayes2018slab2} and the LITHO1.0 model \cite{pasyanos2014litho1} (Figure \ref{fig:interfaces}). While the Slab2 provides data for the geometry of the subducting slab, the LITHO1.0 provides information about the thickness of the crust and the depth of the lithosphere-asthenosphere boundary (LAB). 
-    \begin{figure}
-      \centering
-      \includegraphics[width=0.22\paperwidth]{figures/interfaces.png}
-      \caption{Example of an initial layer model with minimum LAB depth of $100$ km in the continental regions and maximum oceanic crust depth of $7$ km.}
-      \label{fig:interfaces}
-    \end{figure}
-  \heading{\textcolor{darkblue}{Thermal structure}}
-    The lithosphere temperature is assumed to increase with depth for both continental and oceanic regions. It starts at $0$ºC at the surface and increases linearly until $1300$ºC at the bottom of the lithosphere. For the asthenosphere, the geothermal gradient respects the adiabatic relation shown in Equation \ref{adiabtic_curve}.
-    \begin{equation}{\label{adiabtic_curve}}
-      T(z)=(T_0-273.15)\exp{\frac{\alpha g z}{C_p}}
-    \end{equation}
-   \noindent where $T_0$ is the potential temperature of the mantle on the surface, $\alpha=3.28\cdot 10^{-5}$ K$^{-1}$ is the thermal expansion coefficient, $g=9.8$ m/s$^2$ is the gravity acceleration, and $C_p=1250$ m$^2$/K s$^2$ is the heat capacity. $T_0$ is defined such that the temperature on the bottom of the model is $1518.68$ºC. This value is chosen to make the viscosity at that depth equals to $10^{19}$ Pa s.
+    \heading{\textcolor{darkblue}{Layer model}}
+      The chosen layer model for the simulations is a combination of the Slab2 model \cite{hayes2018slab2} and the LITHO1.0 model \cite{pasyanos2014litho1} (Figure \ref{fig:interfaces}). While the Slab2 provides data for the geometry of the subducting slab, the LITHO1.0 provides information about the thickness of the crust and the depth of the lithosphere-asthenosphere boundary (LAB). 
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.3\paperwidth]{figures/interfaces.png}
+        \caption{Example of an initial layer model with minimum LAB depth of $100$ km in the continental regions and maximum oceanic crust depth of $8$ km. Dipping subducting slab has a thickness of $85.5$ km with an oceanic crust $8$ km thick.}
+        \label{fig:interfaces}
+      \end{figure}
+    \heading{\textcolor{darkblue}{Thermal structure}}
+      The lithosphere temperature is assumed to increase with depth for both continental and oceanic regions. It starts at $0$ºC at the surface and increases linearly until $1300$ºC at the bottom of the lithosphere. For the asthenosphere, the geothermal gradient respects the adiabatic relation shown in Equation \ref{adiabtic_curve}.
+      \begin{equation}{\label{adiabtic_curve}}
+        T(z)=(T_0-273.15)\exp{\frac{\alpha g z}{C_p}}
+      \end{equation}
+      \noindent where $T_0$ is the potential temperature of the mantle on the surface, $\alpha=3.28\cdot 10^{-5}$ K$^{-1}$ is the thermal expansion coefficient, $g=9.8$ m/s$^2$ is the gravity acceleration, and $C_p=1250$ m$^2$/K s$^2$ is the heat capacity. $T_0$ is defined such that the temperature on the bottom of the model is $1518.68$ºC. This value is chosen to make the viscosity at that depth equals to $10^{19}$ Pa s.
     
-   For the subducting oceanic slab, we consider a semi-infinite slab of velocity $v$ descending into an isothermal mantle and solved Equation \ref{energy-conservation} for $\partial T/\partial t=0$. Furthermore, we added a contribution $\delta T = T(z)-T_0$, which is the difference between the potential temperature of the mantle on the surface and the temperature $T(z)$ at a certain depth $z$.
+      For the subducting oceanic slab, we consider a semi-infinite slab of velocity $v$ descending into an isothermal mantle and solved Equation \ref{energy-conservation} for $\partial T/\partial t=0$. Furthermore, we added a contribution $\delta T = T(z)-T_0$, which is the difference between the potential temperature of the mantle on the surface and the temperature $T(z)$ at a certain depth $z$.
    
-   To simulate the heat conduction during before the simulation, we diffused the thermal structure for $20$ Myr using the boundary condition of $\partial T/\partial x=0$ on the sides of the model.
-    % Use the command \newline at the end of a line to force justification (and stretch) of that line
+      To simulate the heat conduction during before the simulation, we diffused the thermal structure for $20$ Myr using the boundary condition of $\partial T/\partial x=0$ on the sides of the model.
+      % Use the command \newline at the end of a line to force justification (and stretch) of that line
 
-\heading{\textcolor{darkblue}{Velocity field}}
+    \heading{\textcolor{darkblue}{Velocity field}}
+
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.15\paperwidth]{figures/velocity_profile.pdf}
+        \caption{Example of an initial velocity field where the oceanic lithosphere is $41.9$ km thick on the west side of the model and the continental lithosphere is $221.2$ km thick on the east side of the model.}
+        \label{fig:velocity-profile}
+      \end{figure}
         
-  The imposed velocity field does not allow normal velocities on the bottom and on the surface of the model. On the sides, the velocity is chosen to cause the oceanic lithosphere to move with velocity $v$ towards the continent. In the asthenosphere, this velocity decreases to zero with the error function. Because of Equation \ref{mass-conservation}, a velocity field is defined to the other side of the model, but with maximum velocity at the bottom, decreasing to zero with the error function and being null for the continental lithosphere.
+      % The imposed velocity field does not allow normal velocities on the bottom and on the surface of the model. On the sides, the velocity is chosen to cause the oceanic lithosphere to move with velocity $v$ towards the continent. In the asthenosphere, this velocity decreases to zero with the error function. Because of Equation \ref{mass-conservation}, a velocity field is defined to the other side of the model, but with maximum velocity at the bottom, decreasing to zero with the error function and being null for the continental lithosphere.
 
-  A velocity field was also defined for the surface of the model, where the velocity of the oceanic lithosphere was set to be constant and equal to the normal velocity $v$. For the continental lithosphere, we set the velocity to be zero, as the subducting slab should move relative to it. Because the slab would anchor in the continental lithosphere during the subduction, we also set a constant velocity $v$ for the first $200$ km of the continental lithosphere. Although this distance seems big, the dip angle of the subducting slab is small.
-        
-  \end{block}
-
-\end{column}
-
-\separatorcolumn
-
-\begin{column}{\colwidth}
-    \begin{block}{Initial conditions - continuation}
+      % A velocity field was also defined for the surface of the model, where the velocity of the oceanic lithosphere was set to be constant and equal to the normal velocity $v$. For the continental lithosphere, we set the velocity to be zero, as the subducting slab should move relative to it. Because the slab would anchor in the continental lithosphere during the subduction, we also set a constant velocity $v$ for the first $200$ km of the continental lithosphere. Although this distance seems big, the dip angle of the subducting slab is small.
 
     \heading{\textcolor{darkblue}{Rheology model}}
     
       The viscosity will be considered to vary exponentially as a function of the temperature $T$ and a compositional factor $C$ as in the Frank-Kamenetskii approximation (Equation \ref{rheology-expression}). We consider the mantle to be a fluid of variable viscosity for a steady state ductile creep, as it is usually considered for thermochemical convection \cite{solomatov2000scaling}.
       \begin{equation}{\label{rheology-expression}}
-          \eta(T,C) = C\eta_r b^* \exp{(-\gamma T)}
+       \eta(T,C) = C\eta_r b^* \exp{(-\gamma T)}
       \end{equation}
       \noindent where $\eta_r$ is the reference viscosity, $b^*$ and $\gamma=E_{a}/RT_{b}^{2}$ are constants and where $E_a$ is the activation energy, $R$ is the gas constant, and $T_b$ is the basal temperature.
-    \end{block}
+        
+  \end{block}
+\end{column}
+
+% ====================
+% Third Column
+% ====================
+
+\separatorcolumn
+
+\begin{column}{\colwidth}
 
   \begin{block}{Results}
 
   \begin{figure}
 		\centering
-  		\subfloat[Thermal structure and velocity field at $0.00$ Myr.\label{fig:a}]{\includegraphics[width=0.22\paperwidth]{figures/angle-step_0.png}}\\
-  		\subfloat[Thermal structure and velocity field at $2.50$ Myr.\label{fig:b}]{\includegraphics[width=0.22\paperwidth]{figures/angle-step_199.png}}\\
-  		\subfloat[Thermal structure and velocity field at $4.99$ Myr.\label{fig:c}]{\includegraphics[width=0.22\paperwidth]{figures/angle-step_363.png}}
+  		\subfloat[Thermal structure and velocity field at $0.00$ Myr.\label{fig:a}]{\includegraphics[width=0.3\paperwidth]{figures/angle-step_0.png}}\\
+  		\subfloat[Thermal structure and velocity field at $2.50$ Myr.\label{fig:b}]{\includegraphics[width=0.3\paperwidth]{figures/angle-step_199.png}}\\
+  		\subfloat[Thermal structure and velocity field at $4.99$ Myr.\label{fig:c}]{\includegraphics[width=0.3\paperwidth]{figures/angle-step_363.png}}
   \caption{Temperature and velocity profiles showing the evolution of the dip angle of the subducting slab until $4.99$ Myr. The simulation was made using a thicknesses of $85$ km for the subducting slab, and $6$ km for the oceanic crust. The compositional factors are $C = 1000$ for the lithosphere, $C=1$ for the mantle, and $C=0.01$ for the lubricant layer. Densities are $\rho_m=3300$ kg/m$^3$ for the mantle, $\rho_{cc}=2750$ kg/m$^3$ for the continental crust, and $\rho_{oc}=2800$ kg/m$^3$ for the oceanic crust.}
   \label{fig:result1}
   \end{figure}
   
   \begin{figure}
     \centering
-    \includegraphics[width=0.22\paperwidth]{figures/angle-step_204.png}
+    \includegraphics[width=0.3\paperwidth]{figures/angle-step_204.png}
     \caption{Simulation with the smallest dip angle difference between the Slab2 and the simulation at $4.98$ Myr. The thicknesses of the subducting slab and the oceanic crust are $80$ and $7$ km, respectively. The compositional factors are $C = 1000$ for the lithosphere, $C=1$ for the mantle, and $C=0.01$ for the lubricant layer. Densities are $\rho_m=3300$ kg/m$^3$ for the mantle, $\rho_{cc}=2750$ kg/m$^3$ for the continental crust, and $\rho_{oc}=2800$ kg/m$^3$ for the oceanic crust.}
     \label{fig:result4}
   \end{figure}
@@ -198,23 +214,23 @@
 
     \begin{figure}
 		\centering
-  		\subfloat[$\sim2.5$ Myr.\label{fig:conclusion1}]{\includegraphics[width=0.10\paperwidth]{figures/corr_25.png}}\qquad
-  		\subfloat[$\sim 5.0$ Myr.\label{fig:conclusion2}]{\includegraphics[width=0.10\paperwidth]{figures/corr_5.png}}
+  		\subfloat[$\sim2.5$ Myr.\label{fig:conclusion1}]{\includegraphics[width=0.13\paperwidth]{figures/corr_25.png}}\qquad
+  		\subfloat[$\sim 5.0$ Myr.\label{fig:conclusion2}]{\includegraphics[width=0.13\paperwidth]{figures/corr_5.png}}
 	\caption{Results for a few combinations of oceanic lithosphere thickness and oceanic crust thickness showing the difference between the dip angles of the simulated subducting slab and the Slab2 model. The difference was calculated at two distinct steps for each simulation.}
 	\label{fig:conclusions}
 	\end{figure}
 
   \end{block}
 
-  \begin{block}{Next Steps}
+  % \begin{block}{Next Steps}
 
-  	\begin{figure}
-    	\centering
-    	\includegraphics[width=0.15\paperwidth]{figures/next-step.png}
-    	\caption{Initial thermal structure for a 3D grid.}
-    	\label{fig:result4}
-  	\end{figure}
-  \end{block}
+  % 	\begin{figure}
+  %   	\centering
+  %   	\includegraphics[width=0.15\paperwidth]{figures/next-step.png}
+  %   	\caption{Initial thermal structure for a 3D grid.}
+  %   	\label{fig:result4}
+  % 	\end{figure}
+  % \end{block}
 
   \begin{block}{References}
     % \bibliography{poster.bib}
