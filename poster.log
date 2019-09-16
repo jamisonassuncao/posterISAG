@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.3.1)  15 SEP 2019 21:21
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.3.1)  15 SEP 2019 22:05
  restricted system commands enabled.
 **poster
 (./poster.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.082 seconds
+luaotfload | main : initialization completed in 0.084 seconds
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
@@ -1495,22 +1495,22 @@ File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 (./poster.aux)
 \openout1 = poster.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1578,7 +1578,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box79
-Package hyperref Info: Link coloring OFF on input line 56.
+Package hyperref Info: Link coloring OFF on input line 59.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1588,9 +1588,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count369
 )
-LaTeX Info: Redefining \ref on input line 56.
-LaTeX Info: Redefining \pageref on input line 56.
-LaTeX Info: Redefining \nameref on input line 56.
+LaTeX Info: Redefining \ref on input line 59.
+LaTeX Info: Redefining \pageref on input line 59.
+LaTeX Info: Redefining \nameref on input line 59.
 
 (./poster.out) (./poster.out)
 \@outlinefile=\write5
@@ -1621,7 +1621,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 56.
+LaTeX Info: Redefining \selectfont on input line 59.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1630,89 +1630,89 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
 ck labels; missing features). Consider writing \pgfplotsset{compat=1.16} into yo
 ur preamble.
- on input line 56.
+ on input line 59.
 
 (./poster.nav)
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 56.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 59.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 56.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 59.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 56.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 59.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 56.
+(Font)              <6> on input line 59.
 <figures/south-america+pantanal.png, id=14, 597.1911pt x 845.0772pt>
 File: figures/south-america+pantanal.png Graphic file (type png)
 <use figures/south-america+pantanal.png>
 Package luatex.def Info: figures/south-america+pantanal.png  used on input line 
-251.
-(luatex.def)             Requested size: 682.87308pt x 710.7427pt.
+275.
+(luatex.def)             Requested size: 455.23714pt x 473.78369pt.
 <figures/interfaces.png, id=24, 1011.78pt x 289.08pt>
 File: figures/interfaces.png Graphic file (type png)
 <use figures/interfaces.png>
-Package luatex.def Info: figures/interfaces.png  used on input line 251.
+Package luatex.def Info: figures/interfaces.png  used on input line 275.
 (luatex.def)             Requested size: 682.87308pt x 195.11174pt.
 <figures/velocity_profile.pdf, id=27, 433.62pt x 650.43pt>
 File: figures/velocity_profile.pdf Graphic file (type pdf)
 <use figures/velocity_profile.pdf>
-Package luatex.def Info: figures/velocity_profile.pdf  used on input line 251.
+Package luatex.def Info: figures/velocity_profile.pdf  used on input line 275.
 (luatex.def)             Requested size: 341.41917pt x 512.15678pt.
 <figures/angle-step_0.png, id=30, 1011.78pt x 289.08pt>
 File: figures/angle-step_0.png Graphic file (type png)
 <use figures/angle-step_0.png>
-Package luatex.def Info: figures/angle-step_0.png  used on input line 251.
+Package luatex.def Info: figures/angle-step_0.png  used on input line 275.
 (luatex.def)             Requested size: 682.87308pt x 195.11174pt.
 <figures/angle-step_199.png, id=31, 1011.78pt x 289.08pt>
 File: figures/angle-step_199.png Graphic file (type png)
 <use figures/angle-step_199.png>
-Package luatex.def Info: figures/angle-step_199.png  used on input line 251.
+Package luatex.def Info: figures/angle-step_199.png  used on input line 275.
 (luatex.def)             Requested size: 682.87308pt x 195.11174pt.
 <figures/angle-step_363.png, id=32, 1011.78pt x 289.08pt>
 File: figures/angle-step_363.png Graphic file (type png)
 <use figures/angle-step_363.png>
-Package luatex.def Info: figures/angle-step_363.png  used on input line 251.
+Package luatex.def Info: figures/angle-step_363.png  used on input line 275.
 (luatex.def)             Requested size: 682.87308pt x 195.11174pt.
 <figures/angle-step_204.png, id=33, 1011.78pt x 289.08pt>
 File: figures/angle-step_204.png Graphic file (type png)
 <use figures/angle-step_204.png>
-Package luatex.def Info: figures/angle-step_204.png  used on input line 251.
+Package luatex.def Info: figures/angle-step_204.png  used on input line 275.
 (luatex.def)             Requested size: 682.87308pt x 195.11174pt.
 <figures/corr_25.png, id=34, 462.528pt x 346.896pt>
 File: figures/corr_25.png Graphic file (type png)
 <use figures/corr_25.png>
-Package luatex.def Info: figures/corr_25.png  used on input line 251.
+Package luatex.def Info: figures/corr_25.png  used on input line 275.
 (luatex.def)             Requested size: 295.91977pt x 221.94916pt.
 <figures/corr_5.png, id=35, 462.528pt x 346.896pt>
 File: figures/corr_5.png Graphic file (type png)
 <use figures/corr_5.png>
-Package luatex.def Info: figures/corr_5.png  used on input line 251.
+Package luatex.def Info: figures/corr_5.png  used on input line 275.
 (luatex.def)             Requested size: 295.91977pt x 221.94916pt.
  (./poster.bbl)
-Overfull \vbox (272.19365pt too high) detected at line 251
+Overfull \vbox (272.19365pt too high) detected at line 275
  []
 
 <figures/usp-logo-png.png, id=36, 803.0pt x 602.25pt>
 File: figures/usp-logo-png.png Graphic file (type png)
 <use figures/usp-logo-png.png>
-Package luatex.def Info: figures/usp-logo-png.png  used on input line 251.
-(luatex.def)             Requested size: 341.44815pt x 256.0748pt.
+Package luatex.def Info: figures/usp-logo-png.png  used on input line 275.
+(luatex.def)             Requested size: 227.61984pt x 170.71652pt.
 <figures/iagcompasso_V.png, id=37, 394.3533pt x 467.5869pt>
 File: figures/iagcompasso_V.png Graphic file (type png)
 <use figures/iagcompasso_V.png>
-Package luatex.def Info: figures/iagcompasso_V.png  used on input line 251.
-(luatex.def)             Requested size: 167.97401pt x 199.16928pt.
+Package luatex.def Info: figures/iagcompasso_V.png  used on input line 275.
+(luatex.def)             Requested size: 117.5788pt x 139.41832pt.
 <figures/logo-isag.png, id=38, 1511.6475pt x 733.74126pt>
 File: figures/logo-isag.png Graphic file (type png)
 <use figures/logo-isag.png>
-Package luatex.def Info: figures/logo-isag.png  used on input line 251.
+Package luatex.def Info: figures/logo-isag.png  used on input line 275.
 (luatex.def)             Requested size: 410.31848pt x 199.16928pt.
 [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -1730,29 +1730,29 @@ igures/angle-step_363.png><./figures/angle-step_204.png><./figures/corr_25.png><
 \tf@snm=\write8
 
 \openout8 = poster.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 277.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 277.
  (./poster.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 253.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 253.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 277.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 277.
 Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45395 strings out of 494383
- 244195,1648299 words of node,token memory allocated
- 111884 words of node memory still in use:
-   635 hlist, 77 vlist, 76 rule, 798 disc, 109 local_par, 153 math, 2392 glue, 1
-511 kern, 340 penalty, 8723 glyph, 1250 attribute, 80 glue_spec, 1250 attribute_
-list, 43 write, 136 pdf_literal, 13 pdf_start_link, 13 pdf_end_link, 25 pdf_dest
-, 13 pdf_action, 370 pdf_colorstack, 9 pdf_setmatrix, 9 pdf_save, 9 pdf_restore 
+ 45397 strings out of 494383
+ 244179,1648299 words of node,token memory allocated
+ 112445 words of node memory still in use:
+   653 hlist, 80 vlist, 80 rule, 791 disc, 110 local_par, 159 math, 2417 glue, 1
+521 kern, 337 penalty, 8698 glyph, 1302 attribute, 80 glue_spec, 1302 attribute_
+list, 43 write, 144 pdf_literal, 13 pdf_start_link, 13 pdf_end_link, 25 pdf_dest
+, 13 pdf_action, 394 pdf_colorstack, 9 pdf_setmatrix, 9 pdf_save, 9 pdf_restore 
 nodes
-   avail lists: 1:4,2:512,3:632,4:419,5:1565,6:112,7:11438,8:124,9:808,10:22,11:
-803,12:1
- 47732 multiletter control sequences out of 65536+600000
+   avail lists: 1:4,2:512,3:637,4:443,5:1575,6:113,7:11444,8:128,9:829,10:21,11:
+796,12:1
+ 47734 multiletter control sequences out of 65536+600000
  116 fonts using 22031935 bytes
- 67i,19n,105p,841b,1194s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 67i,19n,105p,2081b,1194s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2018/texmf-dist/fonts/truetype/typoland/lato/Lato-LightItali
 c.ttf>{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/loc
 al/texlive/2018/texmf-dist/fonts/truetype/typoland/lato/Lato-Bold.ttf>{/usr/loca
@@ -1765,7 +1765,7 @@ ve/2018/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2018/tex
 mf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/font
 s/type1/public/lm/lmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
 ic/lm/lmsy10.pfb>
-Output written on poster.pdf (1 page, 7874972 bytes).
+Output written on poster.pdf (1 page, 7955698 bytes).
 
 PDF statistics: 188 PDF objects out of 1000 (max. 8388607)
  99 compressed objects within 1 object stream
